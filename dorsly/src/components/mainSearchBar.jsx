@@ -73,6 +73,7 @@ export default function mainSearchBar() {
   const handleSearchTextChange = (e) => {
     setSearchText(e.target.value)
   }
+  
   const focusChildInput = (e) => {
     e.target.closest("div").querySelector("input").focus()
   }

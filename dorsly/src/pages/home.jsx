@@ -3,10 +3,10 @@ import React from "react"
 import "../static/css/general.css"
 import style from "../static/css/home.module.css"
 
-import Header from "../components/header"
-import Partner from "../components/partner"
-import MainSarchBar from "../components/mainSearchBar"
 import Card from "../components/card"
+import Header from "../components/header"
+import MainSarchBar from "../components/mainSearchBar"
+import Partner from "../components/partner"
 
 
 import CalendarIllustration from "/assets/svg/calendarillustration.svg"
@@ -79,8 +79,8 @@ export default function home() {
 
           <p className={style["seperator"]}>Alternatively,</p>
           <div className={style["actions"]}>
-            <button>Register now</button>
-            <button className={style["inverted"]}>
+            <button onClick={ () => {window.location.href="/register"}}>Register now</button>
+            <button className={style["inverted"]} onClick={ () => {window.location.href="/contact"}}>
               Register as a business
             </button>
           </div>
