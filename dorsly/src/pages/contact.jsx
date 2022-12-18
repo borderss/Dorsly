@@ -27,7 +27,10 @@ export default function contact() {
           <br />
           using our services? Let us know. We will help you.
         </p>
-        <button>Contact us</button>
+        <button onClick={e => {
+          e.preventDefault()
+          document.querySelector("form").scrollIntoView({ behavior: "smooth" })
+        }}>Contact us</button>
 
         <div className={style["lowerSection"]}>
           <div className={style["contact"]}>
