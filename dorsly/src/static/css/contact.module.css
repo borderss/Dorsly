@@ -1,0 +1,186 @@
+div > .backgroundImg {
+  display: flex;
+}
+
+.backgroundImg {
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  width: min(1920px, 100vw);
+  margin-inline: auto;
+
+  font-family: "Lexend";
+}
+
+.contentFrame {
+  position: relative;
+  left: 50%;
+  translate: -50%;
+  width: min(1670px, 89vw);
+  margin-top: 63px;
+  color: white;
+  font-family: "Lexend";
+}
+
+.contentFrame > h1 {
+  font-size: 63px;
+  margin-bottom: 0px;
+  padding-top: 120px;
+}
+
+.contentFrame > p {
+  font-size: 22px;
+  font-weight: 200;
+  margin-bottom: 50px;
+}
+
+.contentFrame > button {
+  background-color: white;
+  color: var(--accent);
+  font-weight: 300;
+  font-size: 20px;
+  min-height: 2.7em;
+  height: 2.7em;
+  outline: none;
+  width: 220px;
+}
+
+.contentFrame > button:hover {
+  transform: scale(1.05);
+}
+
+.lowerSection {
+  display: flex;
+  margin-top: 400px;
+  justify-content: flex-end;
+  margin-bottom: 120px;
+}
+
+.lowerSection > * {
+  width: 50%;
+  color: var(--accent);
+}
+
+.lowerSection > div:first-child {
+  width: 40%;
+  color: var(--accent);
+}
+
+.lowerSection > * > h2 {
+  font-size: 50px;
+  font-weight: 400;
+  margin: 0px;
+  margin-bottom: -10px;
+}
+
+.lowerSection > * > div {
+  width: 80%;
+  margin-top: 20px;
+  padding: 20px;
+  border-top: 2px solid #f3f3f3;
+}
+
+.contact > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact > div > div {
+  display: flex;
+  align-items: center;
+}
+
+.contact > div > div > p {
+  font-size: 23px;
+  margin: 0px;
+  margin-bottom: 3px;
+  margin-left: 15px;
+}
+
+.contact > div > div > img {
+  width: 50px;
+  padding: 10px;
+  border-radius: 100vw;
+  overflow: visible;
+  border: 2px solid #e8e8e8;
+}
+
+.contactInputs > .senderNameSurname {
+  display: flex;
+  gap: 10px;
+}
+
+.contactInputs > .senderNameSurname > * {
+  flex: 1 1 auto;
+  height: 42px;
+  margin-bottom: 19px;
+}
+
+.contactInputs > .senderNameSurname > * > input {
+  background: transparent;
+}
+
+.contactInputs > *:not(.senderNameSurname) {
+  width: 100%;
+  height: 42px;
+  margin-bottom: 19px;
+}
+
+.contactInputs > *:not(.senderNameSurname) > input {
+  background: transparent;
+}
+
+.agreement {
+  position: relative;
+}
+
+.agreement > div {
+  display: flex;
+  gap: 12px;
+  height: 40px;
+}
+
+.agreement > div > input {
+  width: 20px;
+  height: 20px;
+  margin: 0px;
+  margin-top: 16px;
+}
+
+.agreement > div > input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  appearance: none;
+  border: 2px solid #e8e8e8;
+  border-radius: 3px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.agreement > div > input[type="checkbox"]:checked {
+  background-color: var(--accent);
+  border: 2px solid var(--accent);
+}
+
+.agreement > div > input[type="checkbox"]:checked::after {
+  content: "\2713";
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.agreement > button {
+  position: absolute;
+  right: 0;
+  top: 25px;
+}
