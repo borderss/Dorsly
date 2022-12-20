@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@sendgrid/mail": "^7.7.0",
+    "@stripe/react-stripe-js": "^1.16.1",
+    "@stripe/stripe-js": "^1.46.0",
     "firebase": "^9.9.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
