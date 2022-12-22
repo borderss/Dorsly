@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@stripe/stripe-react-native": "^0.22.1",
+    "stripe": "^11.4.0"
+  }
+}

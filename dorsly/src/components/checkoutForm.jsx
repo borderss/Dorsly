@@ -21,7 +21,6 @@ const CARD_OPTIONS = {
   },
 }
 
-
 export default function CheckoutForm() {
   const [success, setSuccess] = useState(false)
   const stripe = useStripe()
