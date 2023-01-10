@@ -8,7 +8,6 @@ import carouselStyle from "../static/css/homeCarouselStyle.module.css"
 
 import Card from "../components/card"
 import Carousel from "../components/carousel"
-import Header from "../components/header"
 import MainSarchBar from "../components/mainSearchBar"
 import Partner from "../components/partner"
 
@@ -126,8 +125,6 @@ export default function home() {
 
   return (
     <>
-      <Header />
-
       <div className={style["header-content"]}>
         <img className={style["phoneIllustration"]} src={PhoneIllustration} />
 

@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.info_container{
+    display: flex;
+    gap: 50px;
+}
+
+.table_row{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+}

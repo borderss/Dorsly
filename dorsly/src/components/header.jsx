@@ -120,6 +120,9 @@ export default function header() {
           <Link to="/products">
             <div className={style["reserve-now"]}>Reserve now</div>
           </Link>
+          <Link to="/profile">
+            <div className={style["reserve-now"]}>Profile</div>
+          </Link>
           <div className={style["search-logo"]}>
             <img src={SearchIcon} alt="Search" />
           </div>
